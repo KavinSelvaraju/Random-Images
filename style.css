@@ -1,0 +1,34 @@
+body{
+  font-family: "Reddit Mono", monospace;
+  background-color:black;
+
+}
+#header{
+h1{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    color: yellow;
+}
+   background-color: darkolivegreen;
+   padding:10px;
+   flex-basis: 100%;
+
+}
+div{
+    h2{
+        color: yellowgreen;
+    }
+    justify-content: space-around;
+    flex-basis: 25%;
+    flex-grow: 1;
+    text-align: center;
+}
+#images{
+    margin-top: 20px;
+     display: flex;
+     flex-wrap: wrap;
+}
+div:hover{
+    cursor:pointer;
+}
